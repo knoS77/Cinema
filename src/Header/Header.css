@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+header{
+    background-color: #1A1F38;
+    width: 100%;
+    height: 100px;
+    color: white;
+}
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.header__title{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.search{
+    position: relative;
+    top: 15px;
+}
+.search input{
+    min-width: 250px;
+    height:35px;
+    border-radius: 8px;
+background: rgba(196, 196, 196, 0.30);
+border: none;
+outline: none;
+padding: 0 0 0 10px;
+font-size: 18px;
+color: white;
+}
+.search img{
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 2px;
+    right: 10px;
+}

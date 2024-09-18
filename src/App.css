@@ -1,0 +1,138 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.main{
+  background: #000000;
+  width: 100%;
+  height: auto;
+  color: white;
+  padding: 80px 0 0 0;
+}
+
+/* section one */
+section{
+  padding-left: 20px;
+}
+.one__title{
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 700;
+}
+.Poster__container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* gap: 50px; */
+  row-gap: 25px;
+  column-gap: 40px;
+  margin: 30px 0 0 0;
+}
+.Poster {
+  width: 300px;
+  min-height: 500px;
+position: relative;
+background-color: #050E12;
+display: flex;
+flex-direction: column;
+padding: 0 5px 20px 5px;
+}
+.Poster:hover{
+
+  -webkit-box-shadow: 5px 7px 21px 4px rgba(150, 150, 150, 0.38);
+  -moz-box-shadow: 5px 7px 21px 4px rrgba(150, 150, 150, 0.38);
+  box-shadow: 5px 7px 21px 4px rgba(150, 150, 150, 0.38);
+}
+
+.Poster__img img{
+width: 100%;
+height: 420px;
+text-decoration: none;
+}
+.Poster a{
+  text-decoration: none;
+}
+.Poster__title {
+  padding: 3px 0 0 10px;
+  text-align: left;
+  font-family: Inter;
+  color: #e6e6e6;
+  text-decoration: none;
+}
+.Poster__year {
+  text-decoration: none;
+  padding: 5px 0 0 10px;
+  font-family: Inter;
+  color: gray;
+  font-size: 13px;
+}
+
+@media (max-width: 320px){
+  input[type="text"]{
+      width: 150px;
+  }
+}
+@media (max-width: 375px){
+  input[type="text"]{
+      width: 150px;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+header{
+    background-color: #1A1F38;
+    width: 100%;
+    height: 100px;
+    color: white;
+}
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.header__title{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.header__title a{
+text-decoration: none;
+color: white;
+}
+.search{
+    position: relative;
+    top: 15px;
+}
+.search input{
+    min-width: 250px;
+    height:35px;
+    border-radius: 8px;
+background: rgba(196, 196, 196, 0.30);
+border: none;
+outline: none;
+padding: 0 0 0 10px;
+font-size: 18px;
+color: white;
+}
+.search img{
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 2px;
+    right: 10px;
+}
+
+.empty{
+  margin: 30px 0 0 0;
+  font-size: 20px;
+  font-family: inter;
+}

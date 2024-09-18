@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,400&display=swap');
+.Hero{
+    background: url("./Hero.png") lightgray 50% / cover no-repeat;
+    width: 100%;
+    height: 650px;
+    color: white;
+}
+
+.Hero__title{
+    color: #FFF;
+font-family: Roboto;
+font-size: 44px;
+font-weight: 700;
+}
+
+.Hero__subTitle{
+    max-width: 620px;
+flex-shrink: 0;
+color: #FFF;
+font-family: Roboto;
+font-size: 17px;
+}
+
+.Hero__block {
+    padding: 100px 0 0 20px;
+}
+.Hero__review{
+position: relative;
+display: flex;
+margin: 10px 0 0 0;
+vertical-align: middle;
+}
+.Hero__review img{
+    height: 24px;
+    width: 24px;
+}
+.Hero__review span{
+    padding: 0 0 0 5px;
+font-size: 20px;
+}
